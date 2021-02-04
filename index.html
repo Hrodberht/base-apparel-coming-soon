@@ -5,29 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts/script.js"></script>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
 </head>
 <body>
+  <div class="grid-container">
+    <div class="hero-text-container">
+      <header class="logo-container page-header">
+        <img class="logo" src="images/logo.svg" alt="Logo of Base Apparel">
+      </header>
 
-  We're coming soon
+      <main>
+        <img class="hero-img-mobile" src="images/hero-mobile.jpg" alt="A photo of a girl wearing fashionable clothes">
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+        <h1 class="announcement">
+          We're <strong class="coming-soon">coming soon</strong>
+        </h1>
 
-  Email Address
-  
-  <footer>
+        <p class="subscription">
+          Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+
+        <form class="subscription-form" id="form-field" onsubmit="return false">
+          <input id="email" name="email" placeholder="Email Address">
+
+          <svg class="error-svg" id="error-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><circle cx="12" cy="12" r="12" fill="#F96464"/><path fill="#FFF" fill-rule="nonzero" d="M13.256 6v9.056h-2V6h2zm-.944 12.464c-.384 0-.699-.104-.944-.312a1.027 1.027 0 0 1-.368-.824c0-.33.125-.608.376-.832.25-.224.563-.336.936-.336.373 0 .68.112.92.336.24.224.36.501.36.832 0 .341-.117.616-.352.824-.235.208-.544.312-.928.312z"/></g></svg>
+
+          <button id="btn" onclick="validate()">
+            <svg class="btn-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671"/></svg>
+          </button>
+        </form>
+
+        <span id="email-error"></span>
+      </main>
+    </div>
+
+    <div class="hero-img-container">
+      <img class="hero-img-desktop" src="images/hero-desktop.jpg" alt="A photo of a girl wearing fashionable clothes"> 
+    </div>
+  </div>
+
+  <footer class="page-footer">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/Hrodberht">Robert</a>.
     </p>
   </footer>
+<!-- 
+  <script src="scripts/script.js"></script> -->
 </body>
 </html>
