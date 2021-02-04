@@ -10,6 +10,17 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
+## My Personal Progress
+
+This challenge is [project #4](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0) as part of Matt Studdert's [16 front-end projects (with designs) to help improve your coding skills](https://dev.to/frontendmentor/16-front-end-projects-with-designs-to-help-improve-your-coding-skills-5ajl).
+
+An overview of my progress on these challenges can be found below:
+
+1) [Single price grid component](https://github.com/Hrodberht/single-price-grid-component-master)
+2) [Four card feature section](https://github.com/Hrodberht/four-card-feature-section)
+3) [Huddle landing page with a single introductory section](https://github.com/Hrodberht/Huddle-landing-page-with-a-single-introductory-section)
+4) [Base Apparel coming soon page](https://github.com/Hrodberht/base-apparel-coming-soon/)
+
 ## The challenge
 
 Your challenge is to build out this coming soon page and get it looking as close to the design as possible.
