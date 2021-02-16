@@ -131,7 +131,7 @@ button:hover {
 
 /* JS */
 
-#email-error {
+.email-error {
     margin-left: 35px;
     color: red;
     font-size: 0.9em;
@@ -186,7 +186,7 @@ button:hover {
 
     /* JS */
 
-    #email-error {
+    .email-error {
         margin-left: 150px;
     }
 

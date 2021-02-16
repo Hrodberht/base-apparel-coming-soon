@@ -19,7 +19,7 @@ An overview of my progress on these challenges can be found below:
 1) [Single price grid component](https://github.com/Hrodberht/single-price-grid-component-master)
 2) [Four card feature section](https://github.com/Hrodberht/four-card-feature-section)
 3) [Huddle landing page with a single introductory section](https://github.com/Hrodberht/Huddle-landing-page-with-a-single-introductory-section)
-4) [Base Apparel coming soon page](https://github.com/Hrodberht/base-apparel-coming-soon/)
+4) [Base Apparel coming soon page]()
 
 ## The challenge
 
