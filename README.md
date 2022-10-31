@@ -1,5 +1,7 @@
 # Frontend Mentor - Base Apparel coming soon page
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/10809dc3-67c2-4846-94c9-4b2b4df013f1/deploy-status)](https://app.netlify.com/sites/base-apparel-mentor/deploys)
+
 ![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
